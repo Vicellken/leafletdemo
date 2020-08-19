@@ -7,8 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet-geosearch": "^3.0.6",
+    "leaflet-measure": "^3.1.0",
+    "leaflet-minimap": "^3.6.1",
+    "leaflet.zoomhome": "^1.0.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-leaflet-minimap": "^1.0.2",
+    "vue-router": "^3.2.0",
+    "vue2-leaflet": "^2.5.2",
+    "vue2-leaflet-geosearch": "^1.0.6",
+    "vue2-leaflet-locatecontrol": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.0",
