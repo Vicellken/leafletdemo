@@ -95,8 +95,8 @@ export default {
     options: {
       position: "bottomright",
       zoomAnimation: true,
-      width: 140,
-      height: 125,
+      width: 220,
+      height: 155,
       toggleDisplay: true,
       minimize: true,
     },
