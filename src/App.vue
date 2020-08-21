@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link>|
-      <router-link to="/map">Leaflet Map Demo</router-link>
+      <router-link to="/map">Leaflet Map Demo</router-link>|
+      <router-link to="/userCenter">Auto set map center to user location</router-link>
     </div>
     <router-view />
   </div>

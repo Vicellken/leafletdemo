@@ -19,6 +19,10 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/leafletDemo.vue')
     }
+  },
+  {
+    path: '/userCenter',
+    component: function () { return import("../views/userCenter.vue") }
   }
 ]
 

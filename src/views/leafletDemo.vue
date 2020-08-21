@@ -27,8 +27,6 @@
 </template>
  
 <script>
-import * as L from "leaflet";
-import "leaflet/dist/leaflet.css";
 import VueLeafletMinimap from "vue-leaflet-minimap";
 import "leaflet-minimap/dist/Control.MiniMap.min.css";
 import { LMap, LTileLayer, LControlScale, LMarker, LPopup } from "vue2-leaflet";
@@ -39,13 +37,6 @@ import Vue2LeafletLocatecontrol from "vue2-leaflet-locatecontrol/Vue2LeafletLoca
 import "leaflet-measure";
 import "leaflet-measure/dist/leaflet-measure.css";
 import "leaflet.zoomhome/dist/leaflet.zoomhome.js";
-
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-  iconUrl: require("leaflet/dist/images/marker-icon.png"),
-  shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
-});
 
 export default {
   components: {
